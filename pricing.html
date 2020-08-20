@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Coral Respawn</title>
+        <link rel="shortcut icon" href="icon.ico">
+        <link rel="stylesheet" href="pricing.css">
+        <link href="https://fonts.googleapis.com/css2?family=Alata&family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navigation bar">
+            <ul>
+                <li><img src="coralgif.gif"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="location.html">Locations</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <h1>Pricing</h1>
+        <br> <br>
+        <form>
+            <fieldset>
+                <legend>Price Inquiry Form</legend>
+                <label>Name: <input type="text" name="name" required="required"></label>
+                <br> <br>
+                <label>Email: <input type="email" name="email" required="required"></label>
+                <br> <br>
+                <fieldset>
+                    <legend>Address</legend>
+                    <input type="street" class="form-control" id="autocomplete" placeholder="Street" required="required">
+                    <br>
+                    <input type="city" class="form-control" id="inputCity" placeholder="City" required="required">
+                    <input type="state" class="form-control" id="inputState" placeholder="State" required="required">
+                    <input type="zip" class="form-control" id="inputZip" placeholder="Zip Code" required="required">
+                    <br>
+                    <input type="country" class="form-control" id="inputCountry" placeholder="Country" required="required">
+                </fieldset>
+                <p>Type of coral farm: </p>
+                <label><input type="radio" name="farmtype" value="tree"> Coral Tree</label>
+                <label><input type="radio" name="farmtype" value="table"> Coral Table</label>
+                <label><input type="radio" name="farmtype" value="unsure" checked="checked"> Unsure</label>
+                <br><br>
+                <label>Description: <br><textarea cols="100" rows="6">Short description of the area where you want to install the coral farm...</textarea></label>
+                <br> <br>
+                <label>Questions/Notes: <br><textarea cols="100" rows="6"></textarea></label>
+                <br>
+                <p>We will do our best to get back to you within 3 business days.</p>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
